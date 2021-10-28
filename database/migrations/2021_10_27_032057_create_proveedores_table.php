@@ -19,6 +19,7 @@ class CreateProveedoresTable extends Migration
             $table->string('email');
             $table->string('celular');
             $table->string('ciudad');
+            $table->timestamps();
         });
     }
 
